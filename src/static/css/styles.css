@@ -1,11 +1,12 @@
 body {
-    background-color: #f4f4f4;
+
+    background-color: #7c73e6;
     margin-top: 50px;
     font-family: 'Lato';
 }
 
 .item {
-    background-color: white;
+    background-color: #ffe9e3;
     padding: 15px;
     margin-bottom: 15px;
     border: transparent;
@@ -20,6 +21,9 @@ body {
 
 .item.completed {
     text-decoration: line-through;
+    backgroud-color: #c4c1e0; 
+    
+
 }
 
 .toggles {
