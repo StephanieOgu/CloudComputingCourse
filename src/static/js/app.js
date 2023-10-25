@@ -100,14 +100,6 @@ function AddItemForm({ onNewItem }) {
                     aria-describedby="basic-addon1"
                 />
                 <InputGroup.Append>
-                    <Button
-                        type="submit"
-                        variant="success"
-                        disabled={!newItem.length}
-                        className={submitting ? 'disabled' : ''}
-                    >
-                        {submitting ? 'Adding...' : 'Add Item'}
-                    </Button>
                 </InputGroup.Append>
             </InputGroup>
         </Form>
